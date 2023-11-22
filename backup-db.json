@@ -1,0 +1,78 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "title": "Sci-Fi"
+    },
+    {
+      "id": 2,
+      "title": "Romance"
+    },
+    {
+      "id": 3,
+      "title": "Action"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Return of the Jedi",
+      "genreId": 1
+    },
+    {
+      "id": 2,
+      "title": "Empire Strikes Back",
+      "genreId": 1
+    },
+    {
+      "id": 3,
+      "title": "The Holiday",
+      "genreId": 2
+    },
+    {
+      "id": 4,
+      "title": "Spider-Man: Into the Spiderverse",
+      "genreId": 1
+    },
+    {
+      "id": 5,
+      "title": "The Bourne Ultimatum",
+      "genreId": 3
+    },
+    {
+      "id": 6,
+      "title": "You've Got Mail",
+      "genreId": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Natalie",
+      "text": "Yes. 100% Yes.",
+      "stars": 5,
+      "movieId": 3
+    },
+    {
+      "id": 2,
+      "author": "Simone",
+      "text": "The book was better.",
+      "stars": 3,
+      "movieId": 1
+    },
+    {
+      "id": 3,
+      "author": "Amy",
+      "text": "A masterpiece",
+      "stars": 5,
+      "movieId": 4
+    },
+    {
+      "id": 4,
+      "author": "Juan",
+      "text": "Not very romantic",
+      "stars": 2,
+      "movieId": 2
+    }
+  ]
+}

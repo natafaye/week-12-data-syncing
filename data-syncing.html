@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h3 class="display-4">Reviews</h3>
+        <div id="reviews-container" class="my-3"></div>
+        <hr class="my-4"/>
+        <form>
+            <label>Stars</label>
+            <select class="form-select mb-3" id="review-stars-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <textarea class="form-control" id="review-textarea"></textarea>
+            <button class="btn btn-success mt-3" onclick="onSaveReviewClick(event)">Save</button>
+        </form>
+    </div>
+    <script src="data-syncing.js"></script>
+</body>
+</html>
